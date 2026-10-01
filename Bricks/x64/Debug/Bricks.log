@@ -1,0 +1,17 @@
+﻿  Ball.cpp
+  BaseObject.cpp
+  Box.cpp
+  Console.cpp
+  Game.cpp
+  Main.cpp
+C:\Users\Jaden\source\repos\bricks-breaker-2606\Game.cpp(23,2): error C2065: 'brick': undeclared identifier
+C:\Users\Jaden\source\repos\bricks-breaker-2606\Game.cpp(24,2): error C2065: 'brick': undeclared identifier
+C:\Users\Jaden\source\repos\bricks-breaker-2606\Game.cpp(25,2): error C2065: 'brick': undeclared identifier
+C:\Users\Jaden\source\repos\bricks-breaker-2606\Game.cpp(26,2): error C2065: 'brick': undeclared identifier
+C:\Users\Jaden\source\repos\bricks-breaker-2606\Game.cpp(27,2): error C2065: 'brick': undeclared identifier
+C:\Users\Jaden\source\repos\bricks-breaker-2606\Game.cpp(28,2): error C2065: 'brick': undeclared identifier
+C:\Users\Jaden\source\repos\bricks-breaker-2606\Game.cpp(72,2): error C2065: 'brick': undeclared identifier
+C:\Users\Jaden\source\repos\bricks-breaker-2606\Game.cpp(80,6): error C2065: 'brick': undeclared identifier
+C:\Users\Jaden\source\repos\bricks-breaker-2606\Game.cpp(82,3): error C2065: 'brick': undeclared identifier
+C:\Users\Jaden\source\repos\bricks-breaker-2606\Game.cpp(82,30): error C2065: 'brick': undeclared identifier
+  Generating Code...
