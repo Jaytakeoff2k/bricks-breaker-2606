@@ -68,6 +68,7 @@ bool Game::Update()
 
 	ball.Update();
 	CheckCollision();
+
 	return true;
 }
 
@@ -81,15 +82,17 @@ void Game::Render() const
 	ball.Draw();
 
 	// TODO #3 - Update render to render all bricks
-	brick.Draw();
-
+	for (size_t i = 0; i < bricks.size(); i++)
+	{
+	bricks[i].Draw();
+	}
 	Console::Lock(false);
 }
 
 void Game::CheckCollision()
 {
-	// TODO #4 - Update collision to check all bricks
-	if (brick.Contains(ball.x_position + ball.x_velocity, ball.y_position + ball.y_velocity))
+	// TODO #4 - Update collision to check all bricks 
+	if (brick.Contains(ball.x_position + ball.x_velocity, ball.y_position + ball.y_velocity)) 
 	{
 		brick.color = ConsoleColor(brick.color - 1);
 		ball.y_velocity *= -1;
